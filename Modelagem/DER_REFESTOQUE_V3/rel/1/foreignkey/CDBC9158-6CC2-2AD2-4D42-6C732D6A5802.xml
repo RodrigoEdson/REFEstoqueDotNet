@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<metadatadoc version="2.0">
+	<object type="FKIndexAssociation" id="CDBC9158-6CC2-2AD2-4D42-6C732D6A5802" rep_oid="null" rep_ovid="null" is_checkedout="false" checkedout_by="" visible_in_main_view="true" tableid="2A4E0EA3-BAB1-8310-7510-462FE857A22E" reftableid="323535A0-B65A-1F97-CC43-745A1AEFCE3A" references="4D3A9643-0EE5-92EC-3973-83EB1DBC7445" localindexid="DE3520AE-2F77-8884-A8B0-75A18F2CFE50" delrule="RESTRICT" mandatory="true" transferable="true" use_default_color="true" background_color="null" foreground_color="null">
+		<name>CXAMOVCAI_CXASAN_FK</name>
+		<comment></comment>
+		<notes></notes>
+		<alter type="created">
+			<user>Rodrigo</user>
+			<timestamp>2010-11-25 20:34:20</timestamp>
+		</alter>
+		<alter type="changed">
+			<user>Rodrigo</user>
+			<timestamp>2010-11-25 20:34:41</timestamp>
+		</alter>
+		<properties>
+			<parameter name="design.owner" value="DER_REFESTOQUE_V3" />
+			<parameter name="object.existsinrepository" value="true" />
+		</properties>
+		<engineering should="true" />
+		<des_obj_version version="1.0" />
+		<documents />
+		<parties />
+		<changerequests />
+		<measurements />
+	</object>
+</metadatadoc>

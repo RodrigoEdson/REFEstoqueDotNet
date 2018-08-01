@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<metadatadoc version="2.0">
+	<object type="FKIndexAssociation" id="1A327170-65A7-9994-54AD-34E374C33B8A" rep_oid="null" rep_ovid="null" is_checkedout="false" checkedout_by="" visible_in_main_view="true" tableid="260D88AD-8539-DB08-A5FE-4CD0B4E0C4D5" reftableid="FF0EFC46-1E8C-015F-EA32-79DA7511AA71" references="14B8BA32-3077-327A-76F4-2F9DF967F317" localindexid="A225680C-9213-9EE0-6CE0-2DB43381CE4E" delrule="RESTRICT" mandatory="true" transferable="true" use_default_color="true" background_color="null" foreground_color="null">
+		<name>GRLPRO_GRLGRUPRO_FK</name>
+		<comment></comment>
+		<notes></notes>
+		<alter type="created">
+			<user>Rodrigo</user>
+			<timestamp>2011-02-08 19:53:53</timestamp>
+		</alter>
+		<alter type="changed">
+			<user>Rodrigo</user>
+			<timestamp>2011-02-08 19:54:35</timestamp>
+		</alter>
+		<properties>
+			<parameter name="design.owner" value="DER_REFESTOQUE_V3" />
+			<parameter name="object.existsinrepository" value="true" />
+		</properties>
+		<engineering should="true" />
+		<des_obj_version version="1.0" />
+		<documents />
+		<parties />
+		<changerequests />
+		<measurements />
+	</object>
+</metadatadoc>

@@ -1,0 +1,820 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<metadatadoc version="2.0">
+	<object type="Table" id="8E460CB9-797E-38A7-C6CE-06451725F066" rep_oid="null" rep_ovid="null" is_checkedout="false" checkedout_by="" visible_in_main_view="true" entitytype="" splittedTableID="" allow_type_substitution="true" minVolumes="0" expectedVolumes="0" maxVolumes="9999999" growthPercent="0" growthType="Year" normalForm="Third" adequatelyNormalized="NO" abbreviation="GLRPESS" oid_is_pk="false" use_default_color="false" background_color="-3342337" foreground_color="null">
+		<name>GRL_PESSOA</name>
+		<comment></comment>
+		<notes></notes>
+		<alter type="created">
+			<user>Rodrigo</user>
+			<timestamp>2010-11-23 22:02:36</timestamp>
+		</alter>
+		<alter type="changed">
+			<user>Rodrigo</user>
+			<timestamp>2011-03-03 21:36:56</timestamp>
+		</alter>
+		<properties>
+			<parameter name="design.owner" value="DER_REFESTOQUE_V3" />
+			<parameter name="object.existsinrepository" value="true" />
+			<parameter name="property.comment.rdbms" value="" />
+		</properties>
+		<include_in_ddl value="false" />
+		<beforeDrop value="" />
+		<beforeCreate value="" />
+		<beforeAlter value="" />
+		<afterCreate value="" />
+		<afterAlter value="" />
+		<endOfScript value="" />
+		<spatial_table value="false" />
+		<oid_pk_columns />
+		<engineering should="true" />
+		<des_obj_version version="1.0" />
+		<fonts>
+			<font_object>
+				<parameter name="fo_type" value="Title" />
+				<parameter name="font_color" value="-16776961" />
+				<parameter name="font_name" value="Dialog" />
+				<parameter name="font_size" value="10" />
+				<parameter name="font_style" value="1" />
+			</font_object>
+			<font_object>
+				<parameter name="fo_type" value="Column" />
+				<parameter name="font_color" value="-16777216" />
+				<parameter name="font_name" value="Dialog" />
+				<parameter name="font_size" value="10" />
+				<parameter name="font_style" value="0" />
+			</font_object>
+			<font_object>
+				<parameter name="fo_type" value="Datatype" />
+				<parameter name="font_color" value="-16744448" />
+				<parameter name="font_name" value="Dialog" />
+				<parameter name="font_size" value="10" />
+				<parameter name="font_style" value="0" />
+			</font_object>
+			<font_object>
+				<parameter name="fo_type" value="PK Element" />
+				<parameter name="font_color" value="-16776961" />
+				<parameter name="font_name" value="Dialog" />
+				<parameter name="font_size" value="10" />
+				<parameter name="font_style" value="0" />
+			</font_object>
+			<font_object>
+				<parameter name="fo_type" value="FK Element" />
+				<parameter name="font_color" value="-16777216" />
+				<parameter name="font_name" value="Dialog" />
+				<parameter name="font_size" value="10" />
+				<parameter name="font_style" value="0" />
+			</font_object>
+			<font_object>
+				<parameter name="fo_type" value="UK Element" />
+				<parameter name="font_color" value="-16776961" />
+				<parameter name="font_name" value="Dialog" />
+				<parameter name="font_size" value="10" />
+				<parameter name="font_style" value="0" />
+			</font_object>
+			<font_object>
+				<parameter name="fo_type" value="Not Null" />
+				<parameter name="font_color" value="-65536" />
+				<parameter name="font_name" value="Dialog" />
+				<parameter name="font_size" value="10" />
+				<parameter name="font_style" value="0" />
+			</font_object>
+			<font_object>
+				<parameter name="fo_type" value="Key" />
+				<parameter name="font_color" value="-16777216" />
+				<parameter name="font_name" value="Dialog" />
+				<parameter name="font_size" value="10" />
+				<parameter name="font_style" value="0" />
+			</font_object>
+		</fonts>
+		<documents />
+		<parties />
+		<changerequests />
+		<measurements />
+		<contained>
+			<object type="Column" id="F1CA2E5B-A139-4E2D-DD2E-3D18F508C0BC" rep_oid="null" rep_ovid="null" is_checkedout="false" checkedout_by="" visible_in_main_view="false" use_default_color="true" background_color="null" foreground_color="null" unique="false" allownull="false" usedomainconstraints="true" is_oid="false" structured_attribute_id="" fk="false">
+				<name>ID_PESSOA</name>
+				<comment></comment>
+				<notes></notes>
+				<alter type="created">
+					<user>Rodrigo</user>
+					<timestamp>2010-11-23 22:12:58</timestamp>
+				</alter>
+				<alter type="changed">
+					<user>Rodrigo</user>
+					<timestamp>2011-03-03 21:36:56</timestamp>
+				</alter>
+				<properties>
+					<parameter name="design.owner" value="DER_REFESTOQUE_V3" />
+					<parameter name="object.existsinrepository" value="true" />
+					<parameter name="object.property.defaultvalue" value="" />
+					<parameter name="object.property.usesdefault" value="false" />
+					<parameter name="property.comment.rdbms" value="ID DA PESSOA&lt;br&gt;" />
+				</properties>
+				<engineering should="true" />
+				<des_obj_version version="1.0" />
+				<domain oid="A35C06B5-BDA8-FC6F-713F-C52F7C822322" file="defaultdomains" />
+				<datatype dttype="packed" precision="10" scale="0" typename="NUMBER" />
+				<abbreviation />
+				<reference value="false" />
+				<logicaltype dttype="NUMERIC" oid="LOGDT019" />
+				<use value="domain" />
+				<sourcetype sort="" />
+				<computed value="false" />
+				<formula desc="" />
+				<subtypeSubstitution value="true" />
+				<restricted_substitution value="false" />
+				<security />
+				<ui_defaults readOnly="false" displayedOnReports="true" displayedOnForms="true" displayAs="Text" />
+				<eng_attribute_id eng_id="none" />
+				<documents />
+				<parties />
+				<changerequests />
+				<measurements />
+			</object>
+			<object type="Column" id="10628B8C-1544-5075-D2B2-1FAC12F16818" rep_oid="null" rep_ovid="null" is_checkedout="false" checkedout_by="" visible_in_main_view="false" use_default_color="true" background_color="null" foreground_color="null" unique="false" allownull="true" usedomainconstraints="true" is_oid="false" structured_attribute_id="" fk="true" beforeDrop="">
+				<name>ID_GRUPO_PESSOA</name>
+				<comment></comment>
+				<notes></notes>
+				<alter type="created">
+					<user>Rodrigo</user>
+					<timestamp>2010-11-25 20:49:59</timestamp>
+				</alter>
+				<alter type="changed">
+					<user>Rodrigo</user>
+					<timestamp>2011-03-03 21:36:56</timestamp>
+				</alter>
+				<properties>
+					<parameter name="design.owner" value="DER_REFESTOQUE_V3" />
+					<parameter name="object.existsinrepository" value="true" />
+					<parameter name="object.property.defaultvalue" value="" />
+					<parameter name="object.property.usesdefault" value="false" />
+					<parameter name="property.comment.rdbms" value="" />
+					<parameter name="refers.attribute" value="" />
+				</properties>
+				<engineering should="true" />
+				<des_obj_version version="1.0" />
+				<domain oid="A35C06B5-BDA8-FC6F-713F-C52F7C822322" file="defaultdomains" />
+				<datatype dttype="packed" precision="10" scale="0" typename="NUMBER" />
+				<abbreviation />
+				<reference value="false" />
+				<logicaltype dttype="NUMERIC" oid="LOGDT019" />
+				<use value="domain" />
+				<sourcetype sort="" />
+				<computed value="false" />
+				<formula desc="" />
+				<subtypeSubstitution value="true" />
+				<restricted_substitution value="false" />
+				<security />
+				<ui_defaults readOnly="false" displayedOnReports="true" displayedOnForms="true" displayAs="Text" />
+				<eng_attribute_id eng_id="none" />
+				<is_previous_column value="false" />
+				<associations>
+					<associated tableid="B0D2BCB0-D002-81B1-A1FD-87C9DA92CBEE" indexid="6D3E84BA-5C40-5154-7283-5717BAA8440D" references="EB3538BE-82BF-45EA-B732-6530208004D4" fkassid="62CDC689-30DA-D209-37EF-B77467A49387" />
+				</associations>
+				<documents />
+				<parties />
+				<changerequests />
+				<measurements />
+			</object>
+			<object type="Column" id="9037CA56-7F54-DCE5-4D7A-72886FAF37B8" rep_oid="null" rep_ovid="null" is_checkedout="false" checkedout_by="" visible_in_main_view="false" use_default_color="true" background_color="null" foreground_color="null" unique="false" allownull="false" usedomainconstraints="true" is_oid="false" structured_attribute_id="" fk="false">
+				<name>NOME</name>
+				<comment></comment>
+				<notes></notes>
+				<alter type="created">
+					<user>Rodrigo</user>
+					<timestamp>2010-11-25 21:00:45</timestamp>
+				</alter>
+				<alter type="changed">
+					<user>Rodrigo</user>
+					<timestamp>2011-03-03 21:36:56</timestamp>
+				</alter>
+				<properties>
+					<parameter name="design.owner" value="DER_REFESTOQUE_V3" />
+					<parameter name="object.existsinrepository" value="true" />
+					<parameter name="object.property.defaultvalue" value="" />
+					<parameter name="object.property.usesdefault" value="false" />
+					<parameter name="property.comment.rdbms" value="NOME" />
+				</properties>
+				<engineering should="true" />
+				<des_obj_version version="1.0" />
+				<domain oid="32DE79E9-E747-ACE1-1EC0-FF0BAEA11D24" file="defaultdomains" />
+				<datatype dttype="var" size="100" typename="VARCHAR2" />
+				<abbreviation />
+				<reference value="false" />
+				<logicaltype dttype="VARCHAR" oid="LOGDT024" />
+				<use value="domain" />
+				<sourcetype sort="" />
+				<computed value="false" />
+				<formula desc="" />
+				<subtypeSubstitution value="true" />
+				<restricted_substitution value="false" />
+				<security />
+				<ui_defaults readOnly="false" displayedOnReports="true" displayedOnForms="true" displayAs="Text" />
+				<eng_attribute_id eng_id="none" />
+				<documents />
+				<parties />
+				<changerequests />
+				<measurements />
+			</object>
+			<object type="Column" id="3BF9EF88-D1A3-CE8A-133B-C019BC6D95D2" rep_oid="null" rep_ovid="null" is_checkedout="false" checkedout_by="" visible_in_main_view="false" use_default_color="true" background_color="null" foreground_color="null" unique="false" allownull="false" usedomainconstraints="true" is_oid="false" structured_attribute_id="" fk="false">
+				<name>APELIDO</name>
+				<comment></comment>
+				<notes></notes>
+				<alter type="created">
+					<user>Rodrigo</user>
+					<timestamp>2010-11-25 21:00:45</timestamp>
+				</alter>
+				<alter type="changed">
+					<user>Rodrigo</user>
+					<timestamp>2011-03-03 21:36:56</timestamp>
+				</alter>
+				<properties>
+					<parameter name="design.owner" value="DER_REFESTOQUE_V3" />
+					<parameter name="object.existsinrepository" value="true" />
+					<parameter name="object.property.defaultvalue" value="" />
+					<parameter name="object.property.usesdefault" value="false" />
+					<parameter name="property.comment.rdbms" value="APELIDO" />
+				</properties>
+				<engineering should="true" />
+				<des_obj_version version="1.0" />
+				<domain oid="32DE79E9-E747-ACE1-1EC0-FF0BAEA11D24" file="defaultdomains" />
+				<datatype dttype="var" size="100" typename="VARCHAR2" />
+				<abbreviation />
+				<reference value="false" />
+				<logicaltype dttype="VARCHAR" oid="LOGDT024" />
+				<use value="domain" />
+				<sourcetype sort="" />
+				<computed value="false" />
+				<formula desc="" />
+				<subtypeSubstitution value="true" />
+				<restricted_substitution value="false" />
+				<security />
+				<ui_defaults readOnly="false" displayedOnReports="true" displayedOnForms="true" displayAs="Text" />
+				<eng_attribute_id eng_id="none" />
+				<documents />
+				<parties />
+				<changerequests />
+				<measurements />
+			</object>
+			<object type="Column" id="AFAC807A-63C1-F568-044C-65037538FEFD" rep_oid="null" rep_ovid="null" is_checkedout="false" checkedout_by="" visible_in_main_view="false" use_default_color="true" background_color="null" foreground_color="null" unique="false" allownull="true" usedomainconstraints="true" is_oid="false" structured_attribute_id="" fk="false">
+				<name>NUM_DOC</name>
+				<comment></comment>
+				<notes></notes>
+				<alter type="created">
+					<user>Rodrigo</user>
+					<timestamp>2010-11-25 21:00:45</timestamp>
+				</alter>
+				<alter type="changed">
+					<user>Rodrigo</user>
+					<timestamp>2011-03-03 21:36:56</timestamp>
+				</alter>
+				<properties>
+					<parameter name="design.owner" value="DER_REFESTOQUE_V3" />
+					<parameter name="object.existsinrepository" value="true" />
+					<parameter name="object.property.defaultvalue" value="" />
+					<parameter name="object.property.usesdefault" value="false" />
+					<parameter name="property.comment.rdbms" value="NUM. DOC." />
+				</properties>
+				<engineering should="true" />
+				<des_obj_version version="1.0" />
+				<domain oid="84A7E103-0A9D-3BE7-2F69-DDE1A0540A3A" file="defaultdomains" />
+				<datatype dttype="var" size="30" typename="VARCHAR2" />
+				<abbreviation />
+				<reference value="false" />
+				<logicaltype dttype="VARCHAR" oid="LOGDT024" />
+				<use value="domain" />
+				<sourcetype sort="" />
+				<computed value="false" />
+				<formula desc="" />
+				<subtypeSubstitution value="true" />
+				<restricted_substitution value="false" />
+				<security />
+				<ui_defaults readOnly="false" displayedOnReports="true" displayedOnForms="true" displayAs="Text" />
+				<eng_attribute_id eng_id="none" />
+				<documents />
+				<parties />
+				<changerequests />
+				<measurements />
+			</object>
+			<object type="Column" id="320F1E5D-AAAB-7FF1-EFA6-A71105537579" rep_oid="null" rep_ovid="null" is_checkedout="false" checkedout_by="" visible_in_main_view="false" use_default_color="true" background_color="null" foreground_color="null" unique="false" allownull="true" usedomainconstraints="true" is_oid="false" structured_attribute_id="" fk="false">
+				<name>TIPO_DOC</name>
+				<comment></comment>
+				<notes></notes>
+				<alter type="created">
+					<user>Rodrigo</user>
+					<timestamp>2010-11-25 21:00:45</timestamp>
+				</alter>
+				<alter type="changed">
+					<user>Rodrigo</user>
+					<timestamp>2011-03-03 21:36:56</timestamp>
+				</alter>
+				<properties>
+					<parameter name="design.owner" value="DER_REFESTOQUE_V3" />
+					<parameter name="object.existsinrepository" value="true" />
+					<parameter name="object.property.defaultvalue" value="" />
+					<parameter name="object.property.usesdefault" value="false" />
+					<parameter name="property.comment.rdbms" value="TIPO DOC." />
+				</properties>
+				<engineering should="true" />
+				<des_obj_version version="1.0" />
+				<domain oid="84A7E103-0A9D-3BE7-2F69-DDE1A0540A3A" file="defaultdomains" />
+				<datatype dttype="var" size="30" typename="VARCHAR2" />
+				<abbreviation />
+				<reference value="false" />
+				<logicaltype dttype="VARCHAR" oid="LOGDT024" />
+				<use value="domain" />
+				<sourcetype sort="" />
+				<computed value="false" />
+				<formula desc="" />
+				<subtypeSubstitution value="true" />
+				<restricted_substitution value="false" />
+				<security />
+				<ui_defaults readOnly="false" displayedOnReports="true" displayedOnForms="true" displayAs="Text" />
+				<eng_attribute_id eng_id="none" />
+				<documents />
+				<parties />
+				<changerequests />
+				<measurements />
+			</object>
+			<object type="Column" id="AB0DE57E-1ADD-6FB1-87E5-9D751D3FF3E8" rep_oid="null" rep_ovid="null" is_checkedout="false" checkedout_by="" visible_in_main_view="false" use_default_color="true" background_color="null" foreground_color="null" unique="false" allownull="false" usedomainconstraints="true" is_oid="false" structured_attribute_id="" fk="false">
+				<name>TEL1</name>
+				<comment></comment>
+				<notes></notes>
+				<alter type="created">
+					<user>Rodrigo</user>
+					<timestamp>2010-11-25 21:00:45</timestamp>
+				</alter>
+				<alter type="changed">
+					<user>Rodrigo</user>
+					<timestamp>2011-03-03 21:36:56</timestamp>
+				</alter>
+				<properties>
+					<parameter name="design.owner" value="DER_REFESTOQUE_V3" />
+					<parameter name="object.existsinrepository" value="true" />
+					<parameter name="object.property.defaultvalue" value="" />
+					<parameter name="object.property.usesdefault" value="false" />
+					<parameter name="property.comment.rdbms" value="TELEFONE 1" />
+				</properties>
+				<engineering should="true" />
+				<des_obj_version version="1.0" />
+				<domain oid="84A7E103-0A9D-3BE7-2F69-DDE1A0540A3A" file="defaultdomains" />
+				<datatype dttype="var" size="30" typename="VARCHAR2" />
+				<abbreviation />
+				<reference value="false" />
+				<logicaltype dttype="VARCHAR" oid="LOGDT024" />
+				<use value="domain" />
+				<sourcetype sort="" />
+				<computed value="false" />
+				<formula desc="" />
+				<subtypeSubstitution value="true" />
+				<restricted_substitution value="false" />
+				<security />
+				<ui_defaults readOnly="false" displayedOnReports="true" displayedOnForms="true" displayAs="Text" />
+				<eng_attribute_id eng_id="none" />
+				<documents />
+				<parties />
+				<changerequests />
+				<measurements />
+			</object>
+			<object type="Column" id="DF6C7795-0630-C28A-3E57-02B77671A48B" rep_oid="null" rep_ovid="null" is_checkedout="false" checkedout_by="" visible_in_main_view="false" use_default_color="true" background_color="null" foreground_color="null" unique="false" allownull="true" usedomainconstraints="true" is_oid="false" structured_attribute_id="" fk="false">
+				<name>TEL2</name>
+				<comment></comment>
+				<notes></notes>
+				<alter type="created">
+					<user>Rodrigo</user>
+					<timestamp>2010-11-25 21:00:45</timestamp>
+				</alter>
+				<alter type="changed">
+					<user>Rodrigo</user>
+					<timestamp>2011-03-03 21:36:56</timestamp>
+				</alter>
+				<properties>
+					<parameter name="design.owner" value="DER_REFESTOQUE_V3" />
+					<parameter name="object.existsinrepository" value="true" />
+					<parameter name="object.property.defaultvalue" value="" />
+					<parameter name="object.property.usesdefault" value="false" />
+					<parameter name="property.comment.rdbms" value="TELEFONE 2" />
+				</properties>
+				<engineering should="true" />
+				<des_obj_version version="1.0" />
+				<domain oid="84A7E103-0A9D-3BE7-2F69-DDE1A0540A3A" file="defaultdomains" />
+				<datatype dttype="var" size="30" typename="VARCHAR2" />
+				<abbreviation />
+				<reference value="false" />
+				<logicaltype dttype="VARCHAR" oid="LOGDT024" />
+				<use value="domain" />
+				<sourcetype sort="" />
+				<computed value="false" />
+				<formula desc="" />
+				<subtypeSubstitution value="true" />
+				<restricted_substitution value="false" />
+				<security />
+				<ui_defaults readOnly="false" displayedOnReports="true" displayedOnForms="true" displayAs="Text" />
+				<eng_attribute_id eng_id="none" />
+				<documents />
+				<parties />
+				<changerequests />
+				<measurements />
+			</object>
+			<object type="Column" id="E40DAA08-82F1-0BFA-027F-04EEE6B33305" rep_oid="null" rep_ovid="null" is_checkedout="false" checkedout_by="" visible_in_main_view="false" use_default_color="true" background_color="null" foreground_color="null" unique="false" allownull="true" usedomainconstraints="true" is_oid="false" structured_attribute_id="" fk="false">
+				<name>TEL3</name>
+				<comment></comment>
+				<notes></notes>
+				<alter type="created">
+					<user>Rodrigo</user>
+					<timestamp>2010-11-25 21:00:45</timestamp>
+				</alter>
+				<alter type="changed">
+					<user>Rodrigo</user>
+					<timestamp>2011-03-03 21:36:56</timestamp>
+				</alter>
+				<properties>
+					<parameter name="design.owner" value="DER_REFESTOQUE_V3" />
+					<parameter name="object.existsinrepository" value="true" />
+					<parameter name="object.property.defaultvalue" value="" />
+					<parameter name="object.property.usesdefault" value="false" />
+					<parameter name="property.comment.rdbms" value="TELEFONE 3" />
+				</properties>
+				<engineering should="true" />
+				<des_obj_version version="1.0" />
+				<domain oid="84A7E103-0A9D-3BE7-2F69-DDE1A0540A3A" file="defaultdomains" />
+				<datatype dttype="var" size="30" typename="VARCHAR2" />
+				<abbreviation />
+				<reference value="false" />
+				<logicaltype dttype="VARCHAR" oid="LOGDT024" />
+				<use value="domain" />
+				<sourcetype sort="" />
+				<computed value="false" />
+				<formula desc="" />
+				<subtypeSubstitution value="true" />
+				<restricted_substitution value="false" />
+				<security />
+				<ui_defaults readOnly="false" displayedOnReports="true" displayedOnForms="true" displayAs="Text" />
+				<eng_attribute_id eng_id="none" />
+				<documents />
+				<parties />
+				<changerequests />
+				<measurements />
+			</object>
+			<object type="Column" id="EC65C482-1BFB-1D67-0A84-6845DB29DFD9" rep_oid="null" rep_ovid="null" is_checkedout="false" checkedout_by="" visible_in_main_view="false" use_default_color="true" background_color="null" foreground_color="null" unique="false" allownull="false" usedomainconstraints="true" is_oid="false" structured_attribute_id="" fk="false">
+				<name>LOGRADOURO</name>
+				<comment></comment>
+				<notes></notes>
+				<alter type="created">
+					<user>Rodrigo</user>
+					<timestamp>2010-11-25 21:00:45</timestamp>
+				</alter>
+				<alter type="changed">
+					<user>Rodrigo</user>
+					<timestamp>2011-03-03 21:36:56</timestamp>
+				</alter>
+				<properties>
+					<parameter name="design.owner" value="DER_REFESTOQUE_V3" />
+					<parameter name="object.existsinrepository" value="true" />
+					<parameter name="object.property.defaultvalue" value="" />
+					<parameter name="object.property.usesdefault" value="false" />
+					<parameter name="property.comment.rdbms" value="LOGRADOURO" />
+				</properties>
+				<engineering should="true" />
+				<des_obj_version version="1.0" />
+				<domain oid="32DE79E9-E747-ACE1-1EC0-FF0BAEA11D24" file="defaultdomains" />
+				<datatype dttype="var" size="100" typename="VARCHAR2" />
+				<abbreviation />
+				<reference value="false" />
+				<logicaltype dttype="VARCHAR" oid="LOGDT024" />
+				<use value="domain" />
+				<sourcetype sort="" />
+				<computed value="false" />
+				<formula desc="" />
+				<subtypeSubstitution value="true" />
+				<restricted_substitution value="false" />
+				<security />
+				<ui_defaults readOnly="false" displayedOnReports="true" displayedOnForms="true" displayAs="Text" />
+				<eng_attribute_id eng_id="none" />
+				<documents />
+				<parties />
+				<changerequests />
+				<measurements />
+			</object>
+			<object type="Column" id="BF5BFBAF-BBB9-61B5-9A4D-3F2E5AB02D92" rep_oid="null" rep_ovid="null" is_checkedout="false" checkedout_by="" visible_in_main_view="false" use_default_color="true" background_color="null" foreground_color="null" unique="false" allownull="false" usedomainconstraints="true" is_oid="false" structured_attribute_id="" fk="false">
+				<name>NUMERO</name>
+				<comment></comment>
+				<notes></notes>
+				<alter type="created">
+					<user>Rodrigo</user>
+					<timestamp>2010-11-25 21:00:45</timestamp>
+				</alter>
+				<alter type="changed">
+					<user>Rodrigo</user>
+					<timestamp>2011-03-03 21:36:56</timestamp>
+				</alter>
+				<properties>
+					<parameter name="design.owner" value="DER_REFESTOQUE_V3" />
+					<parameter name="object.existsinrepository" value="true" />
+					<parameter name="object.property.defaultvalue" value="" />
+					<parameter name="object.property.usesdefault" value="false" />
+					<parameter name="property.comment.rdbms" value="NUMERO" />
+				</properties>
+				<engineering should="true" />
+				<des_obj_version version="1.0" />
+				<domain oid="84A7E103-0A9D-3BE7-2F69-DDE1A0540A3A" file="defaultdomains" />
+				<datatype dttype="var" size="30" typename="VARCHAR2" />
+				<abbreviation />
+				<reference value="false" />
+				<logicaltype dttype="VARCHAR" oid="LOGDT024" />
+				<use value="domain" />
+				<sourcetype sort="" />
+				<computed value="false" />
+				<formula desc="" />
+				<subtypeSubstitution value="true" />
+				<restricted_substitution value="false" />
+				<security />
+				<ui_defaults readOnly="false" displayedOnReports="true" displayedOnForms="true" displayAs="Text" />
+				<eng_attribute_id eng_id="none" />
+				<documents />
+				<parties />
+				<changerequests />
+				<measurements />
+			</object>
+			<object type="Column" id="FE78D27E-ED91-BC47-5E01-6386BC991469" rep_oid="null" rep_ovid="null" is_checkedout="false" checkedout_by="" visible_in_main_view="false" use_default_color="true" background_color="null" foreground_color="null" unique="false" allownull="true" usedomainconstraints="true" is_oid="false" structured_attribute_id="" fk="false">
+				<name>COMPLEMENTO</name>
+				<comment></comment>
+				<notes></notes>
+				<alter type="created">
+					<user>Rodrigo</user>
+					<timestamp>2010-11-25 21:00:45</timestamp>
+				</alter>
+				<alter type="changed">
+					<user>Rodrigo</user>
+					<timestamp>2011-03-03 21:36:56</timestamp>
+				</alter>
+				<properties>
+					<parameter name="design.owner" value="DER_REFESTOQUE_V3" />
+					<parameter name="object.existsinrepository" value="true" />
+					<parameter name="object.property.defaultvalue" value="" />
+					<parameter name="object.property.usesdefault" value="false" />
+					<parameter name="property.comment.rdbms" value="COMPLEMENTO" />
+				</properties>
+				<engineering should="true" />
+				<des_obj_version version="1.0" />
+				<domain oid="32DE79E9-E747-ACE1-1EC0-FF0BAEA11D24" file="defaultdomains" />
+				<datatype dttype="var" size="100" typename="VARCHAR2" />
+				<abbreviation />
+				<reference value="false" />
+				<logicaltype dttype="VARCHAR" oid="LOGDT024" />
+				<use value="domain" />
+				<sourcetype sort="" />
+				<computed value="false" />
+				<formula desc="" />
+				<subtypeSubstitution value="true" />
+				<restricted_substitution value="false" />
+				<security />
+				<ui_defaults readOnly="false" displayedOnReports="true" displayedOnForms="true" displayAs="Text" />
+				<eng_attribute_id eng_id="none" />
+				<documents />
+				<parties />
+				<changerequests />
+				<measurements />
+			</object>
+			<object type="Column" id="AD055B84-1701-CBB2-A9C1-5890C8BCE6F6" rep_oid="null" rep_ovid="null" is_checkedout="false" checkedout_by="" visible_in_main_view="false" use_default_color="true" background_color="null" foreground_color="null" unique="false" allownull="false" usedomainconstraints="true" is_oid="false" structured_attribute_id="" fk="false">
+				<name>BAIRRO</name>
+				<comment></comment>
+				<notes></notes>
+				<alter type="created">
+					<user>Rodrigo</user>
+					<timestamp>2010-11-25 21:00:45</timestamp>
+				</alter>
+				<alter type="changed">
+					<user>Rodrigo</user>
+					<timestamp>2011-03-03 21:36:56</timestamp>
+				</alter>
+				<properties>
+					<parameter name="design.owner" value="DER_REFESTOQUE_V3" />
+					<parameter name="object.existsinrepository" value="true" />
+					<parameter name="object.property.defaultvalue" value="" />
+					<parameter name="object.property.usesdefault" value="false" />
+					<parameter name="property.comment.rdbms" value="BAIRRO" />
+				</properties>
+				<engineering should="true" />
+				<des_obj_version version="1.0" />
+				<domain oid="32DE79E9-E747-ACE1-1EC0-FF0BAEA11D24" file="defaultdomains" />
+				<datatype dttype="var" size="100" typename="VARCHAR2" />
+				<abbreviation />
+				<reference value="false" />
+				<logicaltype dttype="VARCHAR" oid="LOGDT024" />
+				<use value="domain" />
+				<sourcetype sort="" />
+				<computed value="false" />
+				<formula desc="" />
+				<subtypeSubstitution value="true" />
+				<restricted_substitution value="false" />
+				<security />
+				<ui_defaults readOnly="false" displayedOnReports="true" displayedOnForms="true" displayAs="Text" />
+				<eng_attribute_id eng_id="none" />
+				<documents />
+				<parties />
+				<changerequests />
+				<measurements />
+			</object>
+			<object type="Column" id="88C5DDFB-EDE7-70B1-FAA3-494AB9D83CD2" rep_oid="null" rep_ovid="null" is_checkedout="false" checkedout_by="" visible_in_main_view="false" use_default_color="true" background_color="null" foreground_color="null" unique="false" allownull="false" usedomainconstraints="true" is_oid="false" structured_attribute_id="" fk="false">
+				<name>CEP</name>
+				<comment></comment>
+				<notes></notes>
+				<alter type="created">
+					<user>Rodrigo</user>
+					<timestamp>2010-11-25 21:00:45</timestamp>
+				</alter>
+				<alter type="changed">
+					<user>Rodrigo</user>
+					<timestamp>2011-03-03 21:36:56</timestamp>
+				</alter>
+				<properties>
+					<parameter name="design.owner" value="DER_REFESTOQUE_V3" />
+					<parameter name="object.existsinrepository" value="true" />
+					<parameter name="object.property.defaultvalue" value="" />
+					<parameter name="object.property.usesdefault" value="false" />
+					<parameter name="property.comment.rdbms" value="CEP" />
+				</properties>
+				<engineering should="true" />
+				<des_obj_version version="1.0" />
+				<domain oid="84A7E103-0A9D-3BE7-2F69-DDE1A0540A3A" file="defaultdomains" />
+				<datatype dttype="var" size="30" typename="VARCHAR2" />
+				<abbreviation />
+				<reference value="false" />
+				<logicaltype dttype="VARCHAR" oid="LOGDT024" />
+				<use value="domain" />
+				<sourcetype sort="" />
+				<computed value="false" />
+				<formula desc="" />
+				<subtypeSubstitution value="true" />
+				<restricted_substitution value="false" />
+				<security />
+				<ui_defaults readOnly="false" displayedOnReports="true" displayedOnForms="true" displayAs="Text" />
+				<eng_attribute_id eng_id="none" />
+				<documents />
+				<parties />
+				<changerequests />
+				<measurements />
+			</object>
+			<object type="Column" id="35622E7C-91D5-1B1F-728D-F4878D649847" rep_oid="null" rep_ovid="null" is_checkedout="false" checkedout_by="" visible_in_main_view="false" use_default_color="true" background_color="null" foreground_color="null" unique="false" allownull="true" usedomainconstraints="true" is_oid="false" structured_attribute_id="" fk="false">
+				<name>PONTO_REF</name>
+				<comment></comment>
+				<notes></notes>
+				<alter type="created">
+					<user>Rodrigo</user>
+					<timestamp>2010-11-25 21:00:45</timestamp>
+				</alter>
+				<alter type="changed">
+					<user>Rodrigo</user>
+					<timestamp>2011-03-03 21:36:56</timestamp>
+				</alter>
+				<properties>
+					<parameter name="design.owner" value="DER_REFESTOQUE_V3" />
+					<parameter name="object.existsinrepository" value="true" />
+					<parameter name="object.property.defaultvalue" value="" />
+					<parameter name="object.property.usesdefault" value="false" />
+					<parameter name="property.comment.rdbms" value="PONTO REF." />
+				</properties>
+				<engineering should="true" />
+				<des_obj_version version="1.0" />
+				<domain oid="32DE79E9-E747-ACE1-1EC0-FF0BAEA11D24" file="defaultdomains" />
+				<datatype dttype="var" size="100" typename="VARCHAR2" />
+				<abbreviation />
+				<reference value="false" />
+				<logicaltype dttype="VARCHAR" oid="LOGDT024" />
+				<use value="domain" />
+				<sourcetype sort="" />
+				<computed value="false" />
+				<formula desc="" />
+				<subtypeSubstitution value="true" />
+				<restricted_substitution value="false" />
+				<security />
+				<ui_defaults readOnly="false" displayedOnReports="true" displayedOnForms="true" displayAs="Text" />
+				<eng_attribute_id eng_id="none" />
+				<documents />
+				<parties />
+				<changerequests />
+				<measurements />
+			</object>
+			<object type="Column" id="7593CF38-C21B-C700-24D7-02C0A0875DED" rep_oid="null" rep_ovid="null" is_checkedout="false" checkedout_by="" visible_in_main_view="false" use_default_color="true" background_color="null" foreground_color="null" unique="false" allownull="true" usedomainconstraints="true" is_oid="false" structured_attribute_id="" fk="false">
+				<name>OBS</name>
+				<comment></comment>
+				<notes></notes>
+				<alter type="created">
+					<user>Rodrigo</user>
+					<timestamp>2010-11-25 21:00:45</timestamp>
+				</alter>
+				<alter type="changed">
+					<user>Rodrigo</user>
+					<timestamp>2011-03-03 21:36:56</timestamp>
+				</alter>
+				<properties>
+					<parameter name="design.owner" value="DER_REFESTOQUE_V3" />
+					<parameter name="object.existsinrepository" value="true" />
+					<parameter name="object.property.defaultvalue" value="" />
+					<parameter name="object.property.usesdefault" value="false" />
+					<parameter name="property.comment.rdbms" value="OBS." />
+				</properties>
+				<engineering should="true" />
+				<des_obj_version version="1.0" />
+				<domain oid="DOM3000004" file="defaultdomains" />
+				<datatype dttype="var" size="4000" typename="VARCHAR2" />
+				<abbreviation />
+				<reference value="false" />
+				<logicaltype dttype="VARCHAR" oid="LOGDT024" />
+				<use value="logical type" />
+				<sourcetype sort="" />
+				<computed value="false" />
+				<formula desc="" />
+				<subtypeSubstitution value="true" />
+				<restricted_substitution value="false" />
+				<security />
+				<ui_defaults readOnly="false" displayedOnReports="true" displayedOnForms="true" displayAs="Text" />
+				<eng_attribute_id eng_id="none" />
+				<documents />
+				<parties />
+				<changerequests />
+				<measurements />
+			</object>
+		</contained>
+		<key>
+			<object type="Index" id="9431D3CB-6181-DE2C-00F6-42C039488A0A" rep_oid="null" rep_ovid="null" is_checkedout="false" checkedout_by="" visible_in_main_view="false" use_default_color="true" background_color="null" foreground_color="null" pk="true" indexstate="Primary Constraint">
+				<name>GRL_PESSOA_PK</name>
+				<comment></comment>
+				<notes></notes>
+				<alter type="created">
+					<user>Rodrigo</user>
+					<timestamp>2010-11-23 22:12:58</timestamp>
+				</alter>
+				<alter type="changed">
+					<user>Rodrigo</user>
+					<timestamp>2010-11-23 22:12:58</timestamp>
+				</alter>
+				<properties>
+					<parameter name="design.owner" value="DER_REFESTOQUE_V3" />
+					<parameter name="object.existsinrepository" value="true" />
+					<parameter name="property.comment.rdbms" value="" />
+				</properties>
+				<engineering should="true" />
+				<des_obj_version version="1.0" />
+				<functional></functional>
+				<contains type="Column" sortorder="ASC">F1CA2E5B-A139-4E2D-DD2E-3D18F508C0BC</contains>
+				<documents />
+				<parties />
+				<changerequests />
+				<measurements />
+			</object>
+			<object type="Index" id="96E095BF-2A04-ACF3-37C5-9F3B230417A8" rep_oid="null" rep_ovid="null" is_checkedout="false" checkedout_by="" visible_in_main_view="false" use_default_color="true" background_color="null" foreground_color="null" pk="false" indexstate="Plain Index">
+				<name>GRLPES_GRLGRUPES_FK_I</name>
+				<comment></comment>
+				<notes></notes>
+				<alter type="created">
+					<user>Rodrigo</user>
+					<timestamp>2011-03-03 21:36:06</timestamp>
+				</alter>
+				<alter type="changed">
+					<user>Rodrigo</user>
+					<timestamp>2011-03-03 21:36:56</timestamp>
+				</alter>
+				<properties>
+					<parameter name="design.owner" value="DER_REFESTOQUE_V3" />
+					<parameter name="object.existsinrepository" value="true" />
+					<parameter name="property.comment.rdbms" value="" />
+				</properties>
+				<engineering should="true" />
+				<des_obj_version version="1.0" />
+				<functional></functional>
+				<contains type="Column" sortorder="ASC">10628B8C-1544-5075-D2B2-1FAC12F16818</contains>
+				<documents />
+				<parties />
+				<changerequests />
+				<measurements />
+			</object>
+			<object type="Index" id="6A8FA1F3-2074-5A53-113E-C9CC6906F216" rep_oid="null" rep_ovid="null" is_checkedout="false" checkedout_by="" visible_in_main_view="false" use_default_color="true" background_color="null" foreground_color="null" pk="false" indexstate="Plain Index">
+				<name>GRLPES_GRLGRUPES_FK</name>
+				<comment></comment>
+				<notes></notes>
+				<alter type="created">
+					<user>Rodrigo</user>
+					<timestamp>2010-11-25 20:49:59</timestamp>
+				</alter>
+				<alter type="changed">
+					<user>Rodrigo</user>
+					<timestamp>2010-11-25 20:50:10</timestamp>
+				</alter>
+				<properties>
+					<parameter name="design.owner" value="DER_REFESTOQUE_V3" />
+					<parameter name="object.existsinrepository" value="true" />
+				</properties>
+				<engineering should="true" />
+				<des_obj_version version="1.0" />
+				<functional></functional>
+				<contains type="Column">10628B8C-1544-5075-D2B2-1FAC12F16818</contains>
+				<documents />
+				<parties />
+				<changerequests />
+				<measurements />
+			</object>
+		</key>
+	</object>
+</metadatadoc>

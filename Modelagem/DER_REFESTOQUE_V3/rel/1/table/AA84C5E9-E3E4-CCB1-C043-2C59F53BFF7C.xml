@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<metadatadoc version="2.0">
+	<object type="Table" id="AA84C5E9-E3E4-CCB1-C043-2C59F53BFF7C" rep_oid="null" rep_ovid="null" is_checkedout="false" checkedout_by="" visible_in_main_view="true" entitytype="" splittedTableID="" allow_type_substitution="true" minVolumes="0" expectedVolumes="0" maxVolumes="9999999" growthPercent="0" growthType="Year" normalForm="Third" adequatelyNormalized="NO" abbreviation="CTRTIT" oid_is_pk="false" use_default_color="true" background_color="null" foreground_color="null">
+		<name>CTR_TITULO</name>
+		<comment></comment>
+		<notes></notes>
+		<alter type="created">
+			<user>Rodrigo</user>
+			<timestamp>2010-11-23 22:04:48</timestamp>
+		</alter>
+		<alter type="changed">
+			<user>Rodrigo</user>
+			<timestamp>2010-11-23 22:28:33</timestamp>
+		</alter>
+		<properties>
+			<parameter name="design.owner" value="DER_REFESTOQUE_V3" />
+			<parameter name="object.existsinrepository" value="true" />
+			<parameter name="property.comment.rdbms" value="" />
+		</properties>
+		<include_in_ddl value="false" />
+		<beforeDrop value="" />
+		<beforeCreate value="" />
+		<beforeAlter value="" />
+		<afterCreate value="" />
+		<afterAlter value="" />
+		<endOfScript value="" />
+		<spatial_table value="false" />
+		<oid_pk_columns />
+		<engineering should="true" />
+		<des_obj_version version="1.0" />
+		<fonts>
+			<font_object>
+				<parameter name="fo_type" value="Title" />
+				<parameter name="font_color" value="-16776961" />
+				<parameter name="font_name" value="Dialog" />
+				<parameter name="font_size" value="10" />
+				<parameter name="font_style" value="1" />
+			</font_object>
+			<font_object>
+				<parameter name="fo_type" value="Column" />
+				<parameter name="font_color" value="-16777216" />
+				<parameter name="font_name" value="Dialog" />
+				<parameter name="font_size" value="10" />
+				<parameter name="font_style" value="0" />
+			</font_object>
+			<font_object>
+				<parameter name="fo_type" value="Datatype" />
+				<parameter name="font_color" value="-16744448" />
+				<parameter name="font_name" value="Dialog" />
+				<parameter name="font_size" value="10" />
+				<parameter name="font_style" value="0" />
+			</font_object>
+			<font_object>
+				<parameter name="fo_type" value="PK Element" />
+				<parameter name="font_color" value="-16776961" />
+				<parameter name="font_name" value="Dialog" />
+				<parameter name="font_size" value="10" />
+				<parameter name="font_style" value="0" />
+			</font_object>
+			<font_object>
+				<parameter name="fo_type" value="FK Element" />
+				<parameter name="font_color" value="-16777216" />
+				<parameter name="font_name" value="Dialog" />
+				<parameter name="font_size" value="10" />
+				<parameter name="font_style" value="0" />
+			</font_object>
+			<font_object>
+				<parameter name="fo_type" value="UK Element" />
+				<parameter name="font_color" value="-16776961" />
+				<parameter name="font_name" value="Dialog" />
+				<parameter name="font_size" value="10" />
+				<parameter name="font_style" value="0" />
+			</font_object>
+			<font_object>
+				<parameter name="fo_type" value="Not Null" />
+				<parameter name="font_color" value="-65536" />
+				<parameter name="font_name" value="Dialog" />
+				<parameter name="font_size" value="10" />
+				<parameter name="font_style" value="0" />
+			</font_object>
+			<font_object>
+				<parameter name="fo_type" value="Key" />
+				<parameter name="font_color" value="-16777216" />
+				<parameter name="font_name" value="Dialog" />
+				<parameter name="font_size" value="10" />
+				<parameter name="font_style" value="0" />
+			</font_object>
+		</fonts>
+		<documents />
+		<parties />
+		<changerequests />
+		<measurements />
+		<contained>
+			<object type="Column" id="AFE177AA-2963-A7AA-DAA6-BCC1797E868A" rep_oid="null" rep_ovid="null" is_checkedout="false" checkedout_by="" visible_in_main_view="false" use_default_color="true" background_color="null" foreground_color="null" unique="false" allownull="false" usedomainconstraints="true" is_oid="false" structured_attribute_id="" fk="false">
+				<name>ID_TITULO</name>
+				<comment></comment>
+				<notes></notes>
+				<alter type="created">
+					<user>Rodrigo</user>
+					<timestamp>2010-11-23 22:26:58</timestamp>
+				</alter>
+				<alter type="changed">
+					<user>Rodrigo</user>
+					<timestamp>2010-11-23 22:28:09</timestamp>
+				</alter>
+				<properties>
+					<parameter name="design.owner" value="DER_REFESTOQUE_V3" />
+					<parameter name="object.existsinrepository" value="true" />
+					<parameter name="object.property.defaultvalue" value="" />
+					<parameter name="object.property.usesdefault" value="false" />
+					<parameter name="property.comment.rdbms" value="ID DO TITULO" />
+				</properties>
+				<engineering should="true" />
+				<des_obj_version version="1.0" />
+				<domain oid="A35C06B5-BDA8-FC6F-713F-C52F7C822322" file="defaultdomains" />
+				<datatype dttype="packed" precision="10" scale="0" typename="NUMBER" />
+				<abbreviation />
+				<reference value="false" />
+				<logicaltype dttype="NUMERIC" oid="LOGDT019" />
+				<use value="domain" />
+				<sourcetype sort="" />
+				<computed value="false" />
+				<formula desc="" />
+				<subtypeSubstitution value="true" />
+				<restricted_substitution value="false" />
+				<security />
+				<ui_defaults readOnly="false" displayedOnReports="true" displayedOnForms="true" displayAs="Text" />
+				<eng_attribute_id eng_id="none" />
+				<documents />
+				<parties />
+				<changerequests />
+				<measurements />
+			</object>
+			<object type="Column" id="C0A9C705-FF47-CFAB-E1C3-36B76B3DB76D" rep_oid="null" rep_ovid="null" is_checkedout="false" checkedout_by="" visible_in_main_view="false" use_default_color="true" background_color="null" foreground_color="null" unique="false" allownull="false" usedomainconstraints="true" is_oid="false" structured_attribute_id="" fk="true" beforeDrop="">
+				<name>ID_VENDA</name>
+				<comment></comment>
+				<notes></notes>
+				<alter type="created">
+					<user>Rodrigo</user>
+					<timestamp>2010-11-23 22:27:50</timestamp>
+				</alter>
+				<alter type="changed">
+					<user>Rodrigo</user>
+					<timestamp>2010-11-23 22:28:09</timestamp>
+				</alter>
+				<properties>
+					<parameter name="design.owner" value="DER_REFESTOQUE_V3" />
+					<parameter name="object.existsinrepository" value="true" />
+					<parameter name="object.property.defaultvalue" value="" />
+					<parameter name="object.property.usesdefault" value="false" />
+					<parameter name="property.comment.rdbms" value="" />
+				</properties>
+				<engineering should="true" />
+				<des_obj_version version="1.0" />
+				<domain oid="A35C06B5-BDA8-FC6F-713F-C52F7C822322" file="defaultdomains" />
+				<datatype dttype="packed" precision="10" scale="0" typename="NUMBER" />
+				<abbreviation />
+				<reference value="false" />
+				<logicaltype dttype="NUMERIC" oid="LOGDT019" />
+				<use value="domain" />
+				<sourcetype sort="" />
+				<computed value="false" />
+				<formula desc="" />
+				<subtypeSubstitution value="true" />
+				<restricted_substitution value="false" />
+				<security />
+				<ui_defaults readOnly="false" displayedOnReports="true" displayedOnForms="true" displayAs="Text" />
+				<eng_attribute_id eng_id="none" />
+				<is_previous_column value="false" />
+				<associations>
+					<associated tableid="C379E442-E0B6-49E4-4843-F2BFD56B62D3" indexid="DE8B588B-2DC7-8878-83AC-E4A69CA2EC79" references="239374C6-AAEF-155B-8833-B60FD3067E0D" fkassid="48D3AF8F-67F7-E255-1EB6-F3ABE3D62ECA" />
+				</associations>
+				<documents />
+				<parties />
+				<changerequests />
+				<measurements />
+			</object>
+		</contained>
+		<key>
+			<object type="Index" id="76D3AF34-8365-9875-816E-7D69C37B6017" rep_oid="null" rep_ovid="null" is_checkedout="false" checkedout_by="" visible_in_main_view="false" use_default_color="true" background_color="null" foreground_color="null" pk="true" indexstate="Primary Constraint">
+				<name>CTR_TITULO_PK</name>
+				<comment></comment>
+				<notes></notes>
+				<alter type="created">
+					<user>Rodrigo</user>
+					<timestamp>2010-11-23 22:26:58</timestamp>
+				</alter>
+				<alter type="changed">
+					<user>Rodrigo</user>
+					<timestamp>2010-11-23 22:26:58</timestamp>
+				</alter>
+				<properties>
+					<parameter name="design.owner" value="DER_REFESTOQUE_V3" />
+					<parameter name="object.existsinrepository" value="true" />
+					<parameter name="property.comment.rdbms" value="" />
+				</properties>
+				<engineering should="true" />
+				<des_obj_version version="1.0" />
+				<functional></functional>
+				<contains type="Column" sortorder="ASC">AFE177AA-2963-A7AA-DAA6-BCC1797E868A</contains>
+				<documents />
+				<parties />
+				<changerequests />
+				<measurements />
+			</object>
+			<object type="Index" id="2E467991-DFD6-CD95-B7DA-A1A142FC82C2" rep_oid="null" rep_ovid="null" is_checkedout="false" checkedout_by="" visible_in_main_view="false" use_default_color="true" background_color="null" foreground_color="null" pk="false" indexstate="Plain Index">
+				<name>CTRTIT_ESTVEN_FK</name>
+				<comment></comment>
+				<notes></notes>
+				<alter type="created">
+					<user>Rodrigo</user>
+					<timestamp>2010-11-23 22:27:50</timestamp>
+				</alter>
+				<alter type="changed">
+					<user>Rodrigo</user>
+					<timestamp>2010-11-23 22:28:00</timestamp>
+				</alter>
+				<properties>
+					<parameter name="design.owner" value="DER_REFESTOQUE_V3" />
+					<parameter name="object.existsinrepository" value="true" />
+				</properties>
+				<engineering should="true" />
+				<des_obj_version version="1.0" />
+				<functional></functional>
+				<contains type="Column">C0A9C705-FF47-CFAB-E1C3-36B76B3DB76D</contains>
+				<documents />
+				<parties />
+				<changerequests />
+				<measurements />
+			</object>
+		</key>
+	</object>
+</metadatadoc>

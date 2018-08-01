@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<metadatadoc version="2.0">
+	<object type="FKIndexAssociation" id="B4BE76F9-FCAA-73AC-1994-B6232B0FDF14" rep_oid="null" rep_ovid="null" is_checkedout="false" checkedout_by="" visible_in_main_view="true" tableid="ECAC4607-DAD0-ACCE-EC2B-ED25321880B3" reftableid="91D8950E-F25C-9417-563C-E5D7AAE36745" references="B6E76A2F-BAAD-5BFE-DC24-39391D5F1F13" localindexid="B02CB3D1-A56C-EF5A-4277-E317F498205B" delrule="RESTRICT" mandatory="true" transferable="true" use_default_color="true" background_color="null" foreground_color="null">
+		<name>ESTMOVEST_ESTSALPRO_FK</name>
+		<comment></comment>
+		<notes></notes>
+		<alter type="created">
+			<user>Rodrigo</user>
+			<timestamp>2010-11-23 23:30:06</timestamp>
+		</alter>
+		<alter type="changed">
+			<user>Rodrigo</user>
+			<timestamp>2010-11-23 23:30:27</timestamp>
+		</alter>
+		<properties>
+			<parameter name="design.owner" value="DER_REFESTOQUE_V3" />
+			<parameter name="object.existsinrepository" value="true" />
+		</properties>
+		<engineering should="true" />
+		<des_obj_version version="1.0" />
+		<documents />
+		<parties />
+		<changerequests />
+		<measurements />
+	</object>
+</metadatadoc>

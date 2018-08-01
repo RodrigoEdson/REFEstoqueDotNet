@@ -1,0 +1,1 @@
+Para abrir a modelagem usar a ferramenta DataModeler da Oracle

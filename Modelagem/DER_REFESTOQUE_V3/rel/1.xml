@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<design version="2.0" id="BAC8D91A-D82E-5B5C-4AFB-61CDFC904CA3" defaultRDBMSSite="D9582E4E-79E2-319F-387A-2ED963CB9D32">
+	<ref>
+		<objectid role="contains" type="Table" oid="9FFD5F8E-EBD1-16EC-EEB5-EE3FFBD00944" marked_generate="true" />
+		<objectid role="contains" type="Table" oid="0FF98DE6-E32C-DE40-B96B-F55C38D3FA38" marked_generate="true" />
+		<objectid role="contains" type="Table" oid="CA17ECB0-9937-B6AD-B264-500274E50E16" marked_generate="true" />
+		<objectid role="contains" type="Table" oid="8D64FB34-C1F4-8B93-D58B-4B6E1AD1E3DE" marked_generate="true" />
+		<objectid role="contains" type="Table" oid="9AA2565D-1D5C-CADA-7B71-3FC0FB673E21" marked_generate="true" />
+		<objectid role="contains" type="Table" oid="AA84C5E9-E3E4-CCB1-C043-2C59F53BFF7C" marked_generate="true" />
+		<objectid role="contains" type="Table" oid="64E6BC27-6329-FEB8-3CE7-60B8AC00904E" marked_generate="true" />
+		<objectid role="contains" type="Table" oid="2A4E0EA3-BAB1-8310-7510-462FE857A22E" marked_generate="true" />
+		<objectid role="contains" type="Table" oid="2B406B73-666F-8DCA-B48C-EEB2FB0BBD8C" marked_generate="true" />
+		<objectid role="contains" type="Table" oid="323535A0-B65A-1F97-CC43-745A1AEFCE3A" marked_generate="true" />
+		<objectid role="contains" type="Table" oid="6E0BD6AE-304D-3BE9-D9EB-83ACA46C837E" marked_generate="true" />
+		<objectid role="contains" type="Table" oid="0B36261C-DD2D-E83D-C4BD-FAEDCE715B80" marked_generate="true" />
+		<objectid role="contains" type="Table" oid="6BC7FAC3-54D9-FE53-0F0D-DCEC44A800A0" marked_generate="true" />
+		<objectid role="contains" type="Table" oid="3B615D14-FEF6-7133-8130-29D5F0E37427" marked_generate="true" />
+		<objectid role="contains" type="Table" oid="44FD5013-44C1-C644-9E97-17E3BBB64EBB" marked_generate="true" />
+		<objectid role="contains" type="Table" oid="1CF920C0-5CE8-2716-760B-FABDADC8809F" marked_generate="true" />
+		<objectid role="contains" type="Table" oid="008BAF9E-70BF-F628-8FF1-40F37E4B2AB1" marked_generate="true" />
+		<objectid role="contains" type="Table" oid="BCDDE6C6-6F6E-041E-8F45-2426B72BC3ED" marked_generate="true" />
+		<objectid role="contains" type="Table" oid="39128B7D-2352-CB09-092E-A610327CD4F7" marked_generate="true" />
+		<objectid role="contains" type="Table" oid="ECAC4607-DAD0-ACCE-EC2B-ED25321880B3" marked_generate="true" />
+		<objectid role="contains" type="Table" oid="B6251C97-81CE-D287-1B4A-B5844FB7399E" marked_generate="true" />
+		<objectid role="contains" type="Table" oid="91D8950E-F25C-9417-563C-E5D7AAE36745" marked_generate="true" />
+		<objectid role="contains" type="Table" oid="C379E442-E0B6-49E4-4843-F2BFD56B62D3" marked_generate="true" />
+		<objectid role="contains" type="Table" oid="B0D2BCB0-D002-81B1-A1FD-87C9DA92CBEE" marked_generate="true" />
+		<objectid role="contains" type="Table" oid="FF0EFC46-1E8C-015F-EA32-79DA7511AA71" marked_generate="true" />
+		<objectid role="contains" type="Table" oid="8E460CB9-797E-38A7-C6CE-06451725F066" marked_generate="true" />
+		<objectid role="contains" type="Table" oid="260D88AD-8539-DB08-A5FE-4CD0B4E0C4D5" marked_generate="true" />
+		<objectid role="contains" type="Table" oid="7671A217-4DF4-B8C5-A36F-E761B70BE9CF" marked_generate="true" />
+		<objectid role="contains" type="FKIndexAssociation" oid="B3CEFA88-3256-8E9D-C4D4-240761918DB7" marked_generate="true" />
+		<objectid role="contains" type="FKIndexAssociation" oid="594FF374-6608-E6F0-B016-942A9C538A7E" marked_generate="true" />
+		<objectid role="contains" type="FKIndexAssociation" oid="BBAD7917-342A-A20E-C9AB-0B6889CE9DF7" marked_generate="true" />
+		<objectid role="contains" type="FKIndexAssociation" oid="CA7A3D28-D897-6C61-18BE-9665CB35E2E9" marked_generate="true" />
+		<objectid role="contains" type="FKIndexAssociation" oid="ABB6B2B4-6F4D-8307-EFCA-9C2BFCB4BEDF" marked_generate="true" />
+		<objectid role="contains" type="FKIndexAssociation" oid="48D3AF8F-67F7-E255-1EB6-F3ABE3D62ECA" marked_generate="true" />
+		<objectid role="contains" type="FKIndexAssociation" oid="F02BF114-9EB9-B177-4260-5B6E2219E4CB" marked_generate="true" />
+		<objectid role="contains" type="FKIndexAssociation" oid="84F5FA22-C69B-B76C-6553-09B2DC7B125A" marked_generate="true" />
+		<objectid role="contains" type="FKIndexAssociation" oid="FABFA1BC-C8BB-71E9-8954-50F3623AAA47" marked_generate="true" />
+		<objectid role="contains" type="FKIndexAssociation" oid="DDA9F680-5183-2E3B-BD5F-ED4E6EFEC8CB" marked_generate="true" />
+		<objectid role="contains" type="FKIndexAssociation" oid="CDBC9158-6CC2-2AD2-4D42-6C732D6A5802" marked_generate="true" />
+		<objectid role="contains" type="FKIndexAssociation" oid="9E80FE4B-E2FA-C53F-1C8C-78A7C53495F6" marked_generate="true" />
+		<objectid role="contains" type="FKIndexAssociation" oid="E57595C7-F044-6F66-06B3-D85364E6B970" marked_generate="true" />
+		<objectid role="contains" type="FKIndexAssociation" oid="BFA9A46D-3EE6-EDB4-A4F0-8EB400FC2DCC" marked_generate="true" />
+		<objectid role="contains" type="FKIndexAssociation" oid="8BC72014-D585-40EE-2DA7-81F7FC3354CC" marked_generate="true" />
+		<objectid role="contains" type="FKIndexAssociation" oid="8402F175-0172-A97F-5DE5-785DBFE1BEF4" marked_generate="true" />
+		<objectid role="contains" type="FKIndexAssociation" oid="A5E2B5D0-8D53-B7D9-696F-F2AC501287C4" marked_generate="true" />
+		<objectid role="contains" type="FKIndexAssociation" oid="9BF64D30-DCE4-97BB-9360-B06C03309589" marked_generate="true" />
+		<objectid role="contains" type="FKIndexAssociation" oid="E4AD3A55-D39F-DFC4-B523-7A744E28B57A" marked_generate="true" />
+		<objectid role="contains" type="FKIndexAssociation" oid="BC76EC16-1EFF-FCCA-2403-CB422EE6944C" marked_generate="true" />
+		<objectid role="contains" type="FKIndexAssociation" oid="96283AF5-2429-7613-3BE8-B0737ADB6CF6" marked_generate="true" />
+		<objectid role="contains" type="FKIndexAssociation" oid="4B98F4FF-8F82-8FD0-01DF-5AA3B7EC9D16" marked_generate="true" />
+		<objectid role="contains" type="FKIndexAssociation" oid="5B1F7D26-B672-FE2D-B1B5-B15BBF2D35CD" marked_generate="true" />
+		<objectid role="contains" type="FKIndexAssociation" oid="A0C31416-A0DD-4D30-1CCA-9184705C914A" marked_generate="true" />
+		<objectid role="contains" type="FKIndexAssociation" oid="B4BE76F9-FCAA-73AC-1994-B6232B0FDF14" marked_generate="true" />
+		<objectid role="contains" type="FKIndexAssociation" oid="15818FB4-D660-6522-CF8D-4F975231D4B7" marked_generate="true" />
+		<objectid role="contains" type="FKIndexAssociation" oid="766DC79C-5F19-4FEF-2100-C831975A9093" marked_generate="true" />
+		<objectid role="contains" type="FKIndexAssociation" oid="5B0C41D4-29F7-CFC8-76C4-59C7128584E9" marked_generate="true" />
+		<objectid role="contains" type="FKIndexAssociation" oid="62CDC689-30DA-D209-37EF-B77467A49387" marked_generate="true" />
+		<objectid role="contains" type="FKIndexAssociation" oid="1A327170-65A7-9994-54AD-34E374C33B8A" marked_generate="true" />
+		<objectid role="contains" type="FKIndexAssociation" oid="D5F330B2-C2A8-F099-1BE1-4E401753B65F" marked_generate="true" />
+	</ref>
+	<type_substitutions />
+	<marked_generate_for_indexes>
+		<objectid oid="44CBEC9B-89EA-919D-09FA-37FAFDF93B0C" marked_generate="true" />
+		<objectid oid="C449D8CA-DC7C-1153-7F02-757EE87BFC98" marked_generate="true" />
+		<objectid oid="8C91E328-C2D5-B2B0-1536-4A72DC6B2CB5" marked_generate="true" />
+		<objectid oid="765416C4-234A-6ED2-3725-05263E00934F" marked_generate="true" />
+		<objectid oid="1E16BD74-A937-3E19-D6C0-8A9FD4570A3B" marked_generate="true" />
+		<objectid oid="F157933B-57C3-9BF8-6A54-70550CCC9F24" marked_generate="true" />
+		<objectid oid="5B89A177-4F9A-90D1-74F0-A06199FCB017" marked_generate="true" />
+		<objectid oid="7803FB4A-9B53-27E6-4598-9CD04E02794F" marked_generate="true" />
+		<objectid oid="0D7C8A97-FEC2-FF38-53F1-FA22745678C2" marked_generate="true" />
+		<objectid oid="223D2083-5069-E07D-37C0-9EAF9693D1E1" marked_generate="true" />
+		<objectid oid="76D3AF34-8365-9875-816E-7D69C37B6017" marked_generate="true" />
+		<objectid oid="2E467991-DFD6-CD95-B7DA-A1A142FC82C2" marked_generate="true" />
+		<objectid oid="B5FA0002-F71C-84AF-4420-DD1C68B020E3" marked_generate="true" />
+		<objectid oid="69E855EC-3991-BBEC-641D-E33F9D75048D" marked_generate="true" />
+		<objectid oid="1E90776F-FEAE-12A5-306B-20A9C51D18EA" marked_generate="true" />
+		<objectid oid="D83A0B5B-2784-1491-01A9-B3D0B48C56E6" marked_generate="true" />
+		<objectid oid="DE3520AE-2F77-8884-A8B0-75A18F2CFE50" marked_generate="true" />
+		<objectid oid="85472092-D03F-B667-27AC-CA58055A7938" marked_generate="true" />
+		<objectid oid="79C1C02E-1718-175E-1AFD-A7685489C2EA" marked_generate="true" />
+		<objectid oid="1A7AAF00-320C-DF59-93CB-3466076379F7" marked_generate="true" />
+		<objectid oid="4D3A9643-0EE5-92EC-3973-83EB1DBC7445" marked_generate="true" />
+		<objectid oid="935C6A1D-30B6-5D80-45DE-FE146830D616" marked_generate="true" />
+		<objectid oid="2C92D4F5-ABA0-C3D4-7B5E-853628A3C56C" marked_generate="true" />
+		<objectid oid="42A6AF67-73CD-B2DB-407F-D08019381867" marked_generate="true" />
+		<objectid oid="1A0FA415-6C02-4096-E067-5AFF2A8C54A4" marked_generate="true" />
+		<objectid oid="C5EE69AB-7F91-F0AB-A154-7AB2341DDBBE" marked_generate="true" />
+		<objectid oid="64A456E2-66B5-ECB5-E47F-FA3B77469EA5" marked_generate="true" />
+		<objectid oid="F9F7BBC7-3E17-40C4-8F1D-80B4D6205C73" marked_generate="true" />
+		<objectid oid="9EF141F4-5606-21DA-0F6C-1FEAB793FAD4" marked_generate="true" />
+		<objectid oid="45A88965-D673-3C63-61E2-41E1C4A8AF3C" marked_generate="true" />
+		<objectid oid="E3B3B629-6E0C-9419-503D-36EB61747A67" marked_generate="true" />
+		<objectid oid="0242F364-8061-B7E5-272B-DA86A25F12FC" marked_generate="true" />
+		<objectid oid="1BFAA1CA-EFDE-2745-A895-43339F9EE7AA" marked_generate="true" />
+		<objectid oid="9AFBBBB9-E265-B3A0-EF9F-5149227B538C" marked_generate="true" />
+		<objectid oid="A5D0B2F0-B46E-253E-6473-807EF01A8AB4" marked_generate="true" />
+		<objectid oid="7DBDC2FD-6583-B4F4-476A-7632D08831B9" marked_generate="true" />
+		<objectid oid="077B6C10-7460-51B6-87CD-17F1B7CAEE4B" marked_generate="true" />
+		<objectid oid="7ACA0797-4C9F-E7F0-FD04-4E68A5147793" marked_generate="true" />
+		<objectid oid="948B2825-0395-B445-185B-5E495B589B9A" marked_generate="true" />
+		<objectid oid="029DBBC1-AA10-50E6-5BDC-C13A8B44877A" marked_generate="true" />
+		<objectid oid="CAAF0932-2BCF-B98D-2D7B-4E3E6D932FAC" marked_generate="true" />
+		<objectid oid="0F4BDD14-8142-F649-5187-71B395F216D0" marked_generate="true" />
+		<objectid oid="44A74E85-6B91-FE30-F9B2-1491265036CB" marked_generate="true" />
+		<objectid oid="D2959B34-E62C-42EF-232F-C70ADD562906" marked_generate="true" />
+		<objectid oid="8217BE79-FE5D-B84F-5417-D9BACAFEECEF" marked_generate="true" />
+		<objectid oid="55C7BBDC-27DC-47EE-DB9C-9DE1792B0A18" marked_generate="true" />
+		<objectid oid="B8903B7F-E607-661F-4680-067EEB445BEC" marked_generate="true" />
+		<objectid oid="4A9A2EAC-73D8-7CC2-D765-36BFE2FBC104" marked_generate="true" />
+		<objectid oid="B02CB3D1-A56C-EF5A-4277-E317F498205B" marked_generate="true" />
+		<objectid oid="7F51E691-ED48-622C-5781-EED96881FEAD" marked_generate="true" />
+		<objectid oid="B6E76A2F-BAAD-5BFE-DC24-39391D5F1F13" marked_generate="true" />
+		<objectid oid="86CB6AEB-80E6-4EEC-2408-9800B2F26A58" marked_generate="true" />
+		<objectid oid="9A9DFED3-0760-E08E-6821-B94A8D4E576C" marked_generate="true" />
+		<objectid oid="5EB4E03C-34B3-78C0-142E-DAB3A13A17CA" marked_generate="true" />
+		<objectid oid="C50A7BDA-5655-E163-7040-8414C33C7A48" marked_generate="true" />
+		<objectid oid="DE8B588B-2DC7-8878-83AC-E4A69CA2EC79" marked_generate="true" />
+		<objectid oid="487B891A-91D1-DFC8-6616-FD0C4D07CD55" marked_generate="true" />
+		<objectid oid="386CBCC3-D997-741D-1823-C610BDCD05E7" marked_generate="true" />
+		<objectid oid="6D3E84BA-5C40-5154-7283-5717BAA8440D" marked_generate="true" />
+		<objectid oid="14B8BA32-3077-327A-76F4-2F9DF967F317" marked_generate="true" />
+		<objectid oid="9431D3CB-6181-DE2C-00F6-42C039488A0A" marked_generate="true" />
+		<objectid oid="96E095BF-2A04-ACF3-37C5-9F3B230417A8" marked_generate="true" />
+		<objectid oid="6A8FA1F3-2074-5A53-113E-C9CC6906F216" marked_generate="true" />
+		<objectid oid="F244D16B-1D9C-C33E-B615-459700B7EDB9" marked_generate="true" />
+		<objectid oid="072E9D3B-F623-369C-945D-EA6B1D4FD98C" marked_generate="true" />
+		<objectid oid="4D0B8E1C-6EC1-F0B2-B2BC-558CBA766015" marked_generate="true" />
+		<objectid oid="A225680C-9213-9EE0-6CE0-2DB43381CE4E" marked_generate="true" />
+		<objectid oid="285C2EDC-8D1C-0B23-A0B8-00D7CA349241" marked_generate="true" />
+		<objectid oid="C7FD4AE7-3923-9F08-DEE9-25EE6E062CC1" marked_generate="true" />
+		<objectid oid="25FABD85-F111-704F-4A35-C4514333795E" marked_generate="true" />
+	</marked_generate_for_indexes>
+	<ext_sub_views_collection>
+		<sub_view subview_name="RefEstoqueV3" id="5A634230-E25C-5038-DAC6-F7FAF0F9759C" sv_type="main_view" visible="true" rep_oid="null" rep_ovid="null" is_checkedout="false" checkedout_by="" />
+	</ext_sub_views_collection>
+	<documents />
+	<parties />
+	<naming_options>
+		<naming_option class_name="oracle.dbtools.crest.model.design.relational.Table" max_name_length="30" case_type="0" valid_characters="null" all_valid="true" />
+		<naming_option class_name="oracle.dbtools.crest.model.design.relational.Column" max_name_length="30" case_type="0" valid_characters="null" all_valid="true" />
+		<naming_option class_name="oracle.dbtools.crest.model.design.relational.TableView" max_name_length="30" case_type="0" valid_characters="null" all_valid="true" />
+		<naming_option class_name="oracle.dbtools.crest.model.design.constraint.TableLevelConstraint" max_name_length="30" case_type="0" valid_characters="null" all_valid="true" />
+		<naming_option class_name="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" max_name_length="30" case_type="2" valid_characters="" all_valid="true" />
+		<naming_option class_name="oracle.dbtools.crest.model.design.relational.Index" max_name_length="30" case_type="0" valid_characters="null" all_valid="true" />
+	</naming_options>
+</design>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<design version="2.0" id="3F3A382E-2151-0DDE-1D2D-D8CD922F1C6F">
+	<ref>
+		<objectid role="contains" type="StructuredType" oid="47E390DE-0671-C4B1-8428-0F45CBEE18F8" />
+	</ref>
+	<ext_sub_views_collection>
+		<sub_view subview_name="" id="6FB3D7B9-A3A1-A69C-FD36-56D79C9DE0AF" sv_type="main_view" visible="false" rep_oid="null" rep_ovid="null" is_checkedout="false" checkedout_by="" />
+	</ext_sub_views_collection>
+	<documents />
+	<parties />
+</design>

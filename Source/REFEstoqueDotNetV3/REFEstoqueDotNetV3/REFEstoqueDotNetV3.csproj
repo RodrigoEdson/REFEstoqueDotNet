@@ -1,0 +1,456 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{79C06BBA-A990-4238-A472-22960C30DF0F}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>REFEstoqueDotNetV3</RootNamespace>
+    <AssemblyName>REFEstoqueDotNetV3</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Oracle.DataAccess, Version=2.111.7.20, Culture=neutral, PublicKeyToken=89b483f429c47342, processorArchitecture=x86">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="cadastros\BaseCadForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="cadastros\BaseFilterForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="cadastros\BaseFilterForm.Designer.cs">
+      <DependentUpon>BaseFilterForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="cadastros\BaseDMLForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="cadastros\BaseDMLForm.Designer.cs">
+      <DependentUpon>BaseDMLForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="cadastros\BaseFindForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="cadastros\BaseFindForm.Designer.cs">
+      <DependentUpon>BaseFindForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="cadastros\EST\SaldoProduto\ViewSaldoProduto.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="cadastros\EST\SaldoProduto\ViewSaldoProduto.Designer.cs">
+      <DependentUpon>ViewSaldoProduto.cs</DependentUpon>
+    </Compile>
+    <Compile Include="cadastros\EST\Venda\DMLVenda.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="cadastros\EST\Venda\DMLVenda.Designer.cs">
+      <DependentUpon>DMLVenda.cs</DependentUpon>
+    </Compile>
+    <Compile Include="cadastros\EST\Venda\ListVendasCliente.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="cadastros\EST\Venda\ListVendasCliente.Designer.cs">
+      <DependentUpon>ListVendasCliente.cs</DependentUpon>
+    </Compile>
+    <Compile Include="cadastros\EST\Venda\SelectCliente.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="cadastros\EST\Venda\SelectCliente.Designer.cs">
+      <DependentUpon>SelectCliente.cs</DependentUpon>
+    </Compile>
+    <Compile Include="cadastros\Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="cadastros\Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="cadastros\EST\Almoxarifado\DMLAlmoxarifado.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="cadastros\EST\Almoxarifado\DMLAlmoxarifado.Designer.cs">
+      <DependentUpon>DMLAlmoxarifado.cs</DependentUpon>
+    </Compile>
+    <Compile Include="cadastros\EST\Almoxarifado\ListAlmoxarifado.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="cadastros\EST\Almoxarifado\ListAlmoxarifado.Designer.cs">
+      <DependentUpon>ListAlmoxarifado.cs</DependentUpon>
+    </Compile>
+    <Compile Include="cadastros\GRL\CadGrupoPessoa.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="cadastros\GRL\CadGrupoPessoa.Designer.cs">
+      <DependentUpon>CadGrupoPessoa.cs</DependentUpon>
+    </Compile>
+    <Compile Include="cadastros\GRL\GrupoPessoas\DMLGrupoPessoa.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="cadastros\GRL\GrupoPessoas\DMLGrupoPessoa.Designer.cs">
+      <DependentUpon>DMLGrupoPessoa.cs</DependentUpon>
+    </Compile>
+    <Compile Include="cadastros\GRL\GrupoPessoas\ListGrupoPessoa.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="cadastros\GRL\GrupoPessoas\ListGrupoPessoa.Designer.cs">
+      <DependentUpon>ListGrupoPessoa.cs</DependentUpon>
+    </Compile>
+    <Compile Include="cadastros\GRL\GrupoProduto\DMLGrupoProduto.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="cadastros\GRL\GrupoProduto\DMLGrupoProduto.Designer.cs">
+      <DependentUpon>DMLGrupoProduto.cs</DependentUpon>
+    </Compile>
+    <Compile Include="cadastros\GRL\GrupoProduto\ListGrupoProduto.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="cadastros\GRL\GrupoProduto\ListGrupoProduto.Designer.cs">
+      <DependentUpon>ListGrupoProduto.cs</DependentUpon>
+    </Compile>
+    <Compile Include="cadastros\GRL\Pessoa\DMLPessoa.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="cadastros\GRL\Pessoa\DMLPessoa.Designer.cs">
+      <DependentUpon>DMLPessoa.cs</DependentUpon>
+    </Compile>
+    <Compile Include="cadastros\GRL\Pessoa\FindPessoa.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="cadastros\GRL\Pessoa\FindPessoa.Designer.cs">
+      <DependentUpon>FindPessoa.cs</DependentUpon>
+    </Compile>
+    <Compile Include="cadastros\GRL\Pessoa\ListPessoa.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="cadastros\GRL\Pessoa\ListPessoa.Designer.cs">
+      <DependentUpon>ListPessoa.cs</DependentUpon>
+    </Compile>
+    <Compile Include="cadastros\GRL\Produto\DMLProduto.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="cadastros\GRL\Produto\DMLProduto.Designer.cs">
+      <DependentUpon>DMLProduto.cs</DependentUpon>
+    </Compile>
+    <Compile Include="cadastros\GRL\Produto\ListProduto.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="cadastros\GRL\Produto\ListProduto.Designer.cs">
+      <DependentUpon>ListProduto.cs</DependentUpon>
+    </Compile>
+    <Compile Include="cadastros\SYS\Usuario\DMLUsuario.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="cadastros\SYS\Usuario\DMLUsuario.Designer.cs">
+      <DependentUpon>DMLUsuario.cs</DependentUpon>
+    </Compile>
+    <Compile Include="cadastros\SYS\Usuario\ListUsuario.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="cadastros\SYS\Usuario\ListUsuario.Designer.cs">
+      <DependentUpon>ListUsuario.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DAO\DIC\ColunaDAO.cs" />
+    <Compile Include="DAO\DIC\TabelaDAO.cs" />
+    <Compile Include="DAO\EST\AlmoxarifadoDAO.cs" />
+    <Compile Include="DAO\EST\ItemVendaDAO.cs" />
+    <Compile Include="DAO\EST\SaldoProdutoDAO.cs" />
+    <Compile Include="DAO\EST\VendaDAO.cs" />
+    <Compile Include="DAO\GRL\GrupoProdutoDAO.cs" />
+    <Compile Include="DAO\GRL\PessoaDAO.cs" />
+    <Compile Include="DAO\GRL\ProdutoDAO.cs" />
+    <Compile Include="DAO\SYS\UsuarioDAO.cs" />
+    <Compile Include="exceptions\InvalidPassworldException.cs" />
+    <Compile Include="login\FrmLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="login\FrmLogin.Designer.cs">
+      <DependentUpon>FrmLogin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="model\DIC\ColunaBean.cs" />
+    <Compile Include="model\DIC\TabelaBean.cs" />
+    <Compile Include="model\EST\AlmoxarifadoBean.cs" />
+    <Compile Include="model\EST\ItemVendaBean.cs" />
+    <Compile Include="model\EST\SaldoProdutoBean.cs" />
+    <Compile Include="model\EST\VendaBean.cs" />
+    <Compile Include="model\GRL\GrupoProdutoBean.cs" />
+    <Compile Include="model\GRL\PessoaBean.cs" />
+    <Compile Include="model\GRL\ProdutoBean.cs" />
+    <Compile Include="model\SYS\UsuarioBean.cs" />
+    <Compile Include="REF\componentes\REFDateTimePicker.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="REF\componentes\REFMaskedTextBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="REF\componentes\REFComboBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="REF\componentes\REFDataGridView.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="REF\componentes\REFLabelStatusRecord.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="REF\componentes\REFLabelMessage.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="REF\componentes\REFPanelMessage.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="REF\componentes\REFPanelNavigator.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="REF\componentes\REFPanelStatusRecord.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="REF\componentes\REFTextBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="DAO\GRL\GrupoPessoaDAO.cs" />
+    <Compile Include="DAO\REFOracleDatabase.cs" />
+    <Compile Include="exceptions\InvalidPropertyValueException.cs" />
+    <Compile Include="exceptions\ValueRequiredException.cs" />
+    <Compile Include="model\GRL\GrupoPessoaBean.cs" />
+    <Compile Include="model\BaseModel.cs" />
+    <Compile Include="REF\forms\BaseForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Main.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Main.Designer.cs">
+      <DependentUpon>Main.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Settings.cs" />
+    <Compile Include="system\DataStatus.cs" />
+    <Compile Include="system\CadFormStatus.cs" />
+    <Compile Include="system\MessageStatus.cs" />
+    <Compile Include="system\security\REFHash.cs" />
+    <Compile Include="system\SYSConfig.cs" />
+    <Compile Include="system\TipoComoBox.cs" />
+    <Compile Include="system\TipoDateTimePicker.cs" />
+    <Compile Include="system\TipoDMLForm.cs" />
+    <Compile Include="system\TipoTextBox.cs" />
+    <Compile Include="system\Uteis.cs" />
+    <EmbeddedResource Include="cadastros\BaseCadForm.resx">
+      <DependentUpon>BaseCadForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="cadastros\BaseFilterForm.resx">
+      <DependentUpon>BaseFilterForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="cadastros\BaseDMLForm.resx">
+      <DependentUpon>BaseDMLForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="cadastros\BaseFindForm.resx">
+      <DependentUpon>BaseFindForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="cadastros\EST\SaldoProduto\ViewSaldoProduto.resx">
+      <DependentUpon>ViewSaldoProduto.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="cadastros\EST\Venda\DMLVenda.resx">
+      <DependentUpon>DMLVenda.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="cadastros\EST\Venda\ListVendasCliente.resx">
+      <DependentUpon>ListVendasCliente.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="cadastros\EST\Venda\SelectCliente.resx">
+      <DependentUpon>SelectCliente.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="cadastros\Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="cadastros\EST\Almoxarifado\DMLAlmoxarifado.resx">
+      <DependentUpon>DMLAlmoxarifado.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="cadastros\EST\Almoxarifado\ListAlmoxarifado.resx">
+      <DependentUpon>ListAlmoxarifado.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="cadastros\GRL\CadGrupoPessoa.resx">
+      <DependentUpon>CadGrupoPessoa.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="cadastros\GRL\GrupoPessoas\DMLGrupoPessoa.resx">
+      <DependentUpon>DMLGrupoPessoa.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="cadastros\GRL\GrupoPessoas\ListGrupoPessoa.resx">
+      <DependentUpon>ListGrupoPessoa.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="cadastros\GRL\GrupoProduto\DMLGrupoProduto.resx">
+      <DependentUpon>DMLGrupoProduto.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="cadastros\GRL\GrupoProduto\ListGrupoProduto.resx">
+      <DependentUpon>ListGrupoProduto.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="cadastros\GRL\Pessoa\DMLPessoa.resx">
+      <DependentUpon>DMLPessoa.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="cadastros\GRL\Pessoa\FindPessoa.resx">
+      <DependentUpon>FindPessoa.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="cadastros\GRL\Pessoa\ListPessoa.resx">
+      <DependentUpon>ListPessoa.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="cadastros\GRL\Produto\DMLProduto.resx">
+      <DependentUpon>DMLProduto.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="cadastros\GRL\Produto\ListProduto.resx">
+      <DependentUpon>ListProduto.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="cadastros\SYS\Usuario\DMLUsuario.resx">
+      <DependentUpon>DMLUsuario.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="cadastros\SYS\Usuario\ListUsuario.resx">
+      <DependentUpon>ListUsuario.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="login\frmLogin.resx">
+      <DependentUpon>FrmLogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Main.resx">
+      <DependentUpon>Main.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="app.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.0,Profile=Client">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4 Client Profile %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icoVoltar.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\degrade_cinza.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fechar.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\novo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon_includ.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\excluir.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icoPrimeiro.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icoAnterior.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icoProximo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icoUltimo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\consultar.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\filtrar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\editar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\login_lock.jpg" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
